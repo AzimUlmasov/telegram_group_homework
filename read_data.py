@@ -13,10 +13,11 @@ def read_data(file_path: str)->dict:
 
     return json.loads(f)
 
-print(__name__.upper())
+# print(__name__.upper())
 
-def main():
-    print(read_data('data/result.json'))
+# def main():
+#     print(read_data('data/result.json'))
 
-if __name__ == '__main__':
-    main()
+# if __name__ == '__main__':
+#     main()
+
